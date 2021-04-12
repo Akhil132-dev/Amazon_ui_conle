@@ -2,10 +2,9 @@
 import './App.css';
 import Header from './Header';
 import Home from './Home';
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Cheackout from './Cheackout';
-import Login from './Sinein';
+
 import Sinein from './Sinein';
 function App() {
   return (
@@ -29,6 +28,7 @@ function App() {
             <Header />
             <Home />
           </Route>
+
 
         </Switch>
       </div>
